@@ -1,0 +1,49 @@
+.appointment-form-container {
+     max-width: 500px; 
+     margin: 50px auto;
+    padding: 30px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease; 
+    background-color: #f9f9f9;
+} 
+.appointment-form-container:hover  { 
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.2);
+} 
+.appointment-form-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px; 
+    color: #333; 
+    text-align: center;
+} 
+.form-group {
+    margin-bottom: 20px; 
+} 
+.form-group input, .form-group textarea {
+    border: 1px solid #ced4da; border-radius: 5px;
+    padding: 10px; 
+    font-size: 16px; 
+    transition: border-color 0.3s ease;
+    width: 100%;
+}
+.form-group .error {
+    font-size: 0.875em;
+    color: #dc3545;
+    margin-top: 5px;
+} 
+button { 
+    padding: 10px; background-color: #007bff;
+    color: white; border: none; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    width: 100%;
+} 
+button:hover {
+    background-color: #0056b3;
+} 
+button:disabled { 
+    cursor: not-allowed; 
+    background-color: #cccccc;
+}
